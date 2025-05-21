@@ -1,0 +1,49 @@
+
+disaster-volunteer-system (DVS)
+
+The "Disaster Volunteer System (DVS)"is a web-based platform designed to coordinate and manage volunteers during natural or man-made disasters.
+It enables volunteers to sign up, receive alerts, access emergency resources, and take action quickly and effectively.
+
+-> Features
+
+-  Volunteer Registration & Login
+-  Real-time Alert System
+-  Disaster Resource Access
+-  Dashboard for Volunteer Management
+-  Session-based Authentication
+-  Custom UI with background imagery
+-> Tech Stack
+
+- Frontend: HTML, CSS, PHP
+- Backend: PHP
+- Storage: File-based (can be extended to MySQL)
+- Session Management: PHP '$_SESSION'
+- Deployment: Localhost (XAMPP/WAMP) or any PHP hosting
+
+->How to Run:
+
+*Prerequisites
+
+- PHP installed locally (use XAMPP, WAMP, or similar)
+- A web browser (Chrome, Firefox, etc.)
+
+*Steps
+
+1. Clone or download this project into your XAMPP/WAMP `htdocs` folder:
+   git clone https://github.com/Hiranmayee-ABSN/disaster-volunteer-system.git
+
+2. Start Apache from XAMPP Control Panel.
+
+3. Navigate to the project in your browser:
+   http://localhost/dvs/login.php
+   
+4. Use the default login for testing:
+
+   *Username:volunteer
+   *Password:help123
+
+-> Security Notes:
+
+* Current version uses hardcoded login — this should be replaced with **secure database-based authentication** for production.
+* Input validation and sanitization should be expanded to prevent XSS/SQLi.
+* Consider HTTPS deployment if hosted online.
