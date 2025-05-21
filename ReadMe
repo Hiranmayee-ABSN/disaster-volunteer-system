@@ -47,3 +47,6 @@ It enables volunteers to sign up, receive alerts, access emergency resources, an
 * Current version uses hardcoded login — this should be replaced with **secure database-based authentication** for production.
 * Input validation and sanitization should be expanded to prevent XSS/SQLi.
 * Consider HTTPS deployment if hosted online.
+
+-> License
+This project is open-source and free to use for educational and learning purposes.
